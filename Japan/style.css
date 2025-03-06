@@ -4,12 +4,6 @@ background-color: rgb(68, 68, 68);
 color: white;
 }
 
-header{
-    display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-}
 
 .headline{
     display: flex;
@@ -18,7 +12,10 @@ justify-content: space-between;
 }
 
 .headline-img{
-    display: flex;
-    flex-direction: row;
+    object-fit: cover;
 }
 
+.headline-box{
+    display: flex;
+    justify-content: space-between;
+}
