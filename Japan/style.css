@@ -1,4 +1,24 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
-color: rgb(68, 68, 68);
+background-color: rgb(68, 68, 68);
+color: white;
 }
+
+header{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headline-img{
+    display: flex;
+    flex-direction: row;
+}
+
