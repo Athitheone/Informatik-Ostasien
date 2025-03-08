@@ -2,6 +2,8 @@ body{
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(68, 68, 68);
 color: white;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 
@@ -38,36 +40,28 @@ background-color: white;
     justify-content: space-between;
 }
 #einleitung{
-    box-shadow: 0 0 5px rgb(133, 208, 238);
-    border: 1px white ;
+    border: 1px solid white ;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.fest1{
+#fest1{
     display: flex;
-justify-content: row;
-padding: 15px;
-box-shadow: 0 0 5px rgb(133, 208, 238);
+    flex-direction: row;
+margin: 1rem;
+border: 2px solid white;
 }
 
-#fest-ueberschrift{
-    display: flex;
-    justify-content: flex-start;
+#fest1-ueberschrift{
+   text-align: center;
+    font-size: medium;
+    color: lightskyblue;
 }
 
-#foto1{
-    display: flex;
-    justify-content: left;
-}
-
-#foto2{
-    display: flex;
-    justify-content: right;
-}
 
 #inhalt{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 
 
