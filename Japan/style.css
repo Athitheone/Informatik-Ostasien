@@ -42,3 +42,37 @@ background-color: white;
     border: 1px white ;
     display: flex;
 }
+
+.fest1{
+    display: flex;
+justify-content: row;
+padding: 15px;
+box-shadow: 0 0 5px rgb(133, 208, 238);
+}
+
+#fest-ueberschrift{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#foto1{
+    display: flex;
+    justify-content: left;
+}
+
+#foto2{
+    display: flex;
+    justify-content: right;
+}
+
+#inhalt{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
