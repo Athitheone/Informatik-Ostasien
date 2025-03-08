@@ -11,8 +11,19 @@ color: white;
     justify-content: center;
 }
 
+.headline-img:hover {
+    box-shadow: 0 0 15px rgba(255, 87, 51, 0.8);
+}
+
+
 .headline-img{
     object-fit: cover;
+    background-color: #f0ecec;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .headline-box{
