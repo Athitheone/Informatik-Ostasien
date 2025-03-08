@@ -24,7 +24,21 @@ background-color: white;
   transition: box-shadow 0.3s ease;
 }
 
+.headline-img2{
+    object-fit:cover;
+}
+
 .headline-box{
     display: flex;
     justify-content: space-between;
+}
+
+.einleitung {
+    display: flex;
+    justify-content: space-between;
+}
+#einleitung{
+    box-shadow: 0 0 5px rgb(133, 208, 238);
+    border: 1px white ;
+    display: flex;
 }
