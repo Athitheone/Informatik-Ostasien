@@ -69,18 +69,27 @@ background-color: white;
 height: 400px;
 }
 
-#foto1{
-height: 10rem;
-width: 20rem;
-}
-
 a{
     color: white;
 }
 
+u{
+    color: white;
+}
 nav{
     border: 2px solid white;
     margin-right: auto;
     font-size: large;
+}
 
+#fest2-ueberschrift{
+    text-align: center;
+     font-size: large;
+     color: lightskyblue;
+ }
+
+ #fest2{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
 }
