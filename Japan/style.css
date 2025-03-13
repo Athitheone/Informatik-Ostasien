@@ -40,10 +40,10 @@ background-color: white;
     justify-content: space-between;
 }
 #einleitung{
-    border: 1px solid white ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 #fest1{
@@ -70,5 +70,17 @@ height: 400px;
 }
 
 #foto1{
+height: 10rem;
+width: 20rem;
+}
+
+a{
+    color: white;
+}
+
+nav{
+    border: 2px solid white;
+    margin-right: auto;
+    font-size: large;
 
 }
