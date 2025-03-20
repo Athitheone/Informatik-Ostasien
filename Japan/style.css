@@ -117,3 +117,15 @@ nav{
      font-size: large;
      color: lightskyblue;
  }
+
+ #fest5-ueberschrift{
+    text-align: center;
+     font-size: large;
+     color: lightskyblue;
+ }
+ 
+ #fest5{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
