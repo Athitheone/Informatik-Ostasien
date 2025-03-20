@@ -93,3 +93,15 @@ nav{
     justify-content: space-around;
     margin: 1rem;
 }
+
+#fest3-ueberschrift{
+    text-align: center;
+     font-size: large;
+     color: lightskyblue;
+ }
+
+ #fest3{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
