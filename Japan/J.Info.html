@@ -11,24 +11,21 @@
 <header>
     <div class = headline-box>
         <div class = headline-img><a href = "https://de.wikipedia.org/wiki/Japan"><img src="images/Japan-flage.png" height= "100" width = "150"></a></div> 
-        <div class = headline><u><h1>Japan Brauchtümer und Feste</h1></u></div>
+        <div class = headline.j><u><h1>Japan Brauchtümer und Feste</h1></u></div>
         <div>  </div>       
     </div><hr>
-    
+    <nav>
+        <div id = nav1><a href="#fest1-ueberschrift">Hakata Gion Yamakasa  </a></div>
+        <div id = nav2><a href="#fest2-ueberschrift">Tanabata</a></div>
+        <div id = nav3><a href="#fest3-ueberschrift">Neujahrsfest</a></div>
+        <div id = nav4><a href="#fest4-ueberschrift">Kirschblütenfest</a></div>
+        <div id = nav5><a href="#fest5-ueberschrift">Setsubun</a></div>
+    </nav>
     <div class = einleitung>
         <div class = headline><h2 id="einleitung">Tauche ein in die faszinierende Welt der japanischen Feste und Traditionen!</h2></div>
-        <div class = headline-img2><img src="images/Fest-Foto.png" height="200" width="300"></div>
+        <div class = headline-img2><img src="images/Fest-Foto.png"></div>
     </div>
     
-<nav>
-    <ul>
-        <li><a href="#fest1-ueberschrift">Hakata Gion Yamakasa</a></li>
-        <li><a href="#fest2-ueberschrift">Tanabata (七夕)></a></li>
-        <li><a href="#fest3-ueberschrift">Neujahrsfest (Shōgatsu / お正月)</a></li>
-        <li><a href="#fest4-ueberschrift">Kirschblütenfest (Hanami / 花見)</a></li>
-        <li><a href="#fest5-ueberschrift">Setsubun (節分)</a></li>
-    </ul>
-</nav><br><br><br>
 
 </header>
     <main>
@@ -157,17 +154,18 @@ Einige Gemeinden veranstalten auch Paraden oder Festivals, bei denen die Straße
 
 body{
 font-family: Arial, Helvetica, sans-serif;
-background-color: rgb(68, 68, 68);
-color: white;
-padding-left: 100px;
-padding-right: 100px;
+background-color: white;
+color: black;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 
-.headline{
+.headline.j{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: black;
 }
 
 .headline-img:hover{
@@ -176,11 +174,9 @@ padding-right: 100px;
 
 .headline-img{
     object-fit: cover;
-background-color: white;
-  color: white;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
-  border-radius: 2px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    border-radius: 2px;
 }
 
 .headline-img2{
@@ -200,7 +196,7 @@ background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    text-align: center;
+    text-align: left;
 }
 
 #fest1{
@@ -212,7 +208,7 @@ background-color: white;
 #fest1-ueberschrift{
    text-align: center;
     font-size: large;
-    color: lightskyblue;
+    color: solid black;
     transition: box-shadow 0.3s ease;
 }
 
@@ -221,10 +217,6 @@ background-color: white;
     padding-left: 125px;
     padding-right: 125px;
     flex-direction: column;
-}
-
-#foto1 , #foto2 {
-height: 400px;
 }
 
 a{
@@ -236,13 +228,50 @@ u{
 }
 nav{
     margin-right: auto;
-    font-size: large;
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 75px;
+    padding-top: 50px;
+}
+
+#nav1:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 57, 57);
+    color: white;
+}
+
+#nav2:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 57, 57);
+    color: white;
+}
+
+#nav3:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 57, 57);
+    color: white;
+}
+
+#nav4:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 57, 57);
+    color: white;
+}
+
+#nav5:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 57, 57);
+    color: white;
 }
 
 #fest2-ueberschrift{
     text-align: center;
      font-size: large;
-     color: lightskyblue;
+     color: solid black;
  }
 
  #fest2{
@@ -254,7 +283,7 @@ nav{
 #fest3-ueberschrift{
     text-align: center;
      font-size: large;
-     color: lightskyblue;
+     color: solid black;
  }
 
  #fest3{
@@ -272,13 +301,13 @@ nav{
 #fest4-ueberschrift{
     text-align: center;
      font-size: large;
-     color: lightskyblue;
+     color: solid black;
  }
 
  #fest5-ueberschrift{
     text-align: center;
      font-size: large;
-     color: lightskyblue;
+     color: solid black;
  }
  
  #fest5{
@@ -287,8 +316,4 @@ nav{
     margin: 1rem;
 }
 
-img{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 </style>
