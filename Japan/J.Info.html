@@ -15,11 +15,12 @@
         <div>  </div>       
     </div><hr>
     <nav>
-        <div id = nav1><a href="#fest1-ueberschrift">Hakata Gion Yamakasa  </a></div>
-        <div id = nav2><a href="#fest2-ueberschrift">Tanabata</a></div>
-        <div id = nav3><a href="#fest3-ueberschrift">Neujahrsfest</a></div>
-        <div id = nav4><a href="#fest4-ueberschrift">Kirschblütenfest</a></div>
-        <div id = nav5><a href="#fest5-ueberschrift">Setsubun</a></div>
+        <div id = "nav0"><a href="index.html">Startseite</a></div>
+        <div id = "nav1"><a href="#fest1-ueberschrift">Hakata Gion Yamakasa</a></div>
+        <div id = "nav2"><a href="#fest2-ueberschrift">Tanabata</a></div>
+        <div id = "nav3"><a href="#fest3-ueberschrift">Neujahrsfest</a></div>
+        <div id = "nav4"><a href="#fest4-ueberschrift">Kirschblütenfest</a></div>
+        <div id = "nav5"><a href="#fest5-ueberschrift">Setsubun</a></div>
     </nav>
     <div class = einleitung>
         <div class = headline><h2 id="einleitung">Tauche ein in die faszinierende Welt der japanischen Feste und Traditionen!</h2></div>
@@ -76,7 +77,7 @@ Einige Gemeinden veranstalten auch Paraden oder Festivals, bei denen die Straße
 </div>
 <u><strong><h1 id = "fest3-ueberschrift">Neujahrsfest (Shōgatsu / お正月)</h1></strong></u>
 <div id = "fest3">
-    <div id = "foto5"><img src="images/Img5.png" height="450"></div>
+    <div id = "foto5"><img src="images/Img5.png" height="299"></div>
     <div id = "inhalt">
         <p>Das Neujahrsfest in Japan, genannt Shōgatsu (お正月), ist das wichtigste und am meisten gefeierte Fest des Jahres. Es beginnt am 1. 
         Januar und dauert in der Regel bis zum 3. Januar, wobei die ersten drei Tage besonders festlich sind.</p>
@@ -99,7 +100,7 @@ Einige Gemeinden veranstalten auch Paraden oder Festivals, bei denen die Straße
 </div>
 <u><strong><h1 id = "fest4-ueberschrift">Kirschblütenfest (Hanami / 花見)</h1></strong></u>
 <div id = "fest4">
-    <div id = "foto7"><img src="images/Img7.png" height="399"></div>
+    <div id = "foto7"><img src="images/Img7.png" height="301"></div>
     <div id = "inhalt">
         <p>Das Hanami ist ein jahrhundertealter Brauch, der die Bewunderung der Kirschblüten (Sakura) feiert, die jedes Jahr im Frühling 
         (meist Ende März bis Anfang April) erblühen. Es handelt sich um eine Zeit des Zusammenkommens, in der Freunde, Familien und Kollegen 
@@ -120,7 +121,7 @@ Einige Gemeinden veranstalten auch Paraden oder Festivals, bei denen die Straße
 </div>
 <u><strong><h1 id = "fest5-ueberschrift">Setsubun (節分) – Der Frühjahrsbeginn und das Vertreiben des Bösen</h1></strong></u>
 <div id = "fest5">
-    <div id = "foto9"><img src="images/Img9.png" height="421"></div>
+    <div id = "foto9"><img src="images/Img9.png" height="369"></div>
     <div id = "inhalt">
     <p>Setsubun ist ein traditionelles Fest, das den Übergang von Winter zu Frühling markiert und am 3. Februar gefeiert wird. Das Wort Setsubun bedeutet 
         „Saisonenteilung“ und bezieht sich auf den Tag, an dem der Frühling im traditionellen japanischen Kalender beginnt. Das Fest ist besonders bekannt für den Brauch,
@@ -169,16 +170,11 @@ padding-right: 50px;
     color: black;
 }
 
-.headline-img:hover{
-    box-shadow: 0 0 15px rgba(150, 148, 147, 0.8);
-}
-
 .headline-img{
-    object-fit: cover;
     cursor: pointer;
     transition:  0.3s;
-    border: dotted black;
-    b
+    border: solid black 6px;
+    border-radius: 20px;
 }
 
 .headline-img2{
@@ -242,6 +238,12 @@ nav{
     justify-content: space-around;
     height: 75px;
     padding-top: 50px;
+}
+
+#nav0:hover{
+    transition: 0.5s;
+    background-color: rgb(231, 57, 57);
+    color: white;
 }
 
 #nav1:hover{
